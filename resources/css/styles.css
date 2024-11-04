@@ -1,0 +1,585 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kosugi+Maru&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mate+SC&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Shojumaru&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Vast+Shadow&display=swap");
+
+:root {
+    --primary-teal: #008080;
+    --primary-neon-orange: #ffa38f;
+    --accent-electric-blue: #00bfff;
+    --accent-dark-charcoal: #333333;
+
+    --beige: #1b262c;
+    --tan: #d2b48c;
+
+    --olive-green: #f6fb7a;
+    --terracotta: #e07b39;
+
+    --light-blue: #add8e6;
+    --pale-green: #98fb98;
+
+    --teal: #008080;
+    --mustard-yellow: #ffcc00;
+
+    --pastel-yellow: #fad02e;
+    --coral: #ff6f61;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#index__body {
+    background-image: url(asset/bghome.jpg);
+    background-size: cover;
+    font-family: "Kosugi Maru", sans-serif;
+}
+
+.nav__links {
+    font-family: "Kosugi Maru", sans-serif;
+}
+
+li,
+a,
+button {
+    text-decoration: none;
+}
+
+body {
+    background-color: var(--beige);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5%;
+}
+
+.divider {
+    border-bottom: 1px solid #d6d8d8b9;
+    margin: 2px 0;
+}
+
+.light {
+    height: 2px;
+}
+
+.logo {
+    width: 15%;
+    cursor: pointer;
+}
+
+.nav__links {
+    list-style: none;
+    margin-left: 50px;
+}
+
+.nav__links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav__links li a {
+    transition: all 0.3s ease 0s;
+    color: var(--olive-green);
+    font-size: larger;
+}
+
+.nav__links li a:hover {
+    color: var(--terracotta);
+}
+
+.nav__icons a {
+    transition: all 0.3s ease 0s;
+    color: var(--olive-green);
+    display: inline-flex;
+    justify-content: space-between;
+    font-size: x-large;
+}
+
+.nav__icons a:hover {
+    color: var(--terracotta);
+}
+
+.order__button {
+    justify-content: center;
+    list-style: none;
+    text-align: center;
+}
+
+#button {
+    background-color: var(--olive-green);
+    color: var(--beige);
+    font-weight: var(--font-bold);
+    padding: 0.5rem 1.5rem 0.5rem 0.5rem;
+    border-radius: 4rem;
+    display: inline-flex;
+    align-items: center;
+    column-gap: 0.75rem;
+    cursor: pointer;
+}
+
+#button span {
+    background-color: var(--terracotta);
+    padding: 0.5rem;
+    font-size: 1.25rem;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    transition: transform 0.4s;
+}
+
+#button:hover span {
+    background-color: var(--olive-green);
+    transform: translateX(0.15rem) rotate(-30deg);
+}
+
+#button:hover {
+    background-color: var(--terracotta);
+}
+
+.login_signup_btn {
+    list-style: none;
+    display: flex;
+}
+
+.login_signup_btn li a button {
+    margin-left: 1rem;
+    padding: 0.75rem 2rem;
+    border: none;
+    cursor: pointer;
+    font-size: medium;
+}
+
+#signup_btn {
+    background-color: transparent;
+    color: #eb7100;
+}
+
+#signup_btn:hover {
+    background-color: rgb(253, 232, 140);
+}
+
+#login_btn {
+    background-color: rgb(252, 172, 0);
+    color: white;
+}
+
+.home {
+    text-align: left;
+}
+
+.home h1 {
+    font-family: "Bebas Neue", sans-serif;
+    color: var(--terracotta);
+    margin-top: 10vh;
+    text-align: center;
+    font-size: 4em;
+}
+
+.home p {
+    font-family: "Montserrat", sans-serif;
+    color: var(--accent-dark-charcoal);
+    font-weight: bold;
+}
+
+.promo {
+    margin-top: 8vh;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+/* LOGIN */
+h2 {
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+}
+
+form {
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: auto;
+    padding-bottom: 2em;
+}
+
+input {
+    width: 100%;
+    margin: 10px 0 0 0;
+    min-height: 4em;
+    background: transparent;
+    padding: 0 10px;
+}
+
+.input_box {
+    position: relative;
+}
+
+.input_box i.pw_hide {
+    right: 0;
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+.input_box i {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+
+.flex {
+    margin-top: 2rem;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.flex_1 {
+    flex: 1 1 0%;
+}
+
+.google_btn {
+    margin-top: 50px;
+    padding: 10px 10px;
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    font-size: medium;
+}
+
+.google_btn i {
+    margin-right: 1rem;
+    font-size: large;
+}
+
+label span {
+    color: #f5004f;
+}
+
+.gmail {
+    display: block;
+    margin-top: 2rem;
+}
+
+.h2.profile {
+    color: white;
+}
+
+.chg_input {
+    display: block;
+    margin-top: 2rem;
+    color: white;
+}
+
+.chg_input input {
+    color: white;
+    border: 2px solid white;
+}
+
+.pw {
+    display: block;
+    margin-top: 1.5rem;
+}
+
+.option_field {
+    margin-top: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.form_box a {
+    color: #f5004f;
+    font-size: 15px;
+}
+
+.form_box a:hover {
+    text-decoration: underline;
+}
+
+.checkboxx {
+    display: flex;
+    column-gap: 8px;
+    white-space: nowrap;
+}
+
+.checkboxx label {
+    font-size: 15px;
+    cursor: pointer;
+    user-select: none;
+    color: #0b0217;
+    padding-top: 1.75rem;
+}
+
+.button {
+    background: var(--pale-green);
+    margin-top: 10px;
+    width: 100%;
+    padding: 10px 0;
+    border-radius: 10px;
+    font-size: medium;
+    font-weight: 650;
+    cursor: pointer;
+}
+
+.login_signup {
+    color: #002451;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.login_signupbg {
+    background-image: url(asset/bglogin.jpg);
+    background-size: cover;
+}
+
+.signupbg {
+    background-image: url(asset/bglogin.jpg);
+    background-size: contain;
+}
+
+/* HOME */
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.message {
+    display: flex;
+    justify-content: center;
+    background-color: var(--primary-neon-orange);
+    margin: 100px 200px 0;
+    color: white;
+    padding: 30px 50px;
+    border-radius: 20px;
+}
+
+.msg-btn {
+    background: var(--pastel-yellow);
+    padding: 10px 0;
+    width: 100px;
+    border-radius: 10px;
+    font-size: medium;
+    font-weight: 650;
+    cursor: pointer;
+    margin-left: 45%;
+    text-align: center;
+}
+
+.message-r {
+    display: flex;
+    justify-content: center;
+    background-color: var(--olive-green);
+    margin: 100px 200px 0;
+    color: white;
+    padding: 30px 50px;
+    border-radius: 20px;
+}
+
+.msg-btn-r {
+    background: var(--pastel-yellow);
+    padding: 10px 0;
+    width: 200px;
+    border-radius: 10px;
+    font-size: medium;
+    font-weight: 650;
+    cursor: pointer;
+    margin-left: 43%;
+    text-align: center;
+}
+
+.message-l {
+    display: flex;
+    justify-content: center;
+    background-color: var(--primary-neon-orange);
+    margin: 100px 200px 0;
+    color: white;
+    padding: 30px 50px;
+    border-radius: 20px;
+}
+
+.msg-btn-l {
+    background: var(--pastel-yellow);
+    padding: 10px 0;
+    width: 100px;
+    border-radius: 10px;
+    font-size: medium;
+    font-weight: 650;
+    cursor: pointer;
+    margin-left: 45%;
+    text-align: center;
+}
+
+#changebtn {
+    background-color: transparent;
+    color: #f7f9f2;
+}
+
+#changebtn:hover {
+    background-color: #ffa62f;
+}
+
+#logoutbtn {
+    background-color: #feffd2;
+    font-weight: 700;
+    color: #ff7d29;
+}
+
+.wlcm {
+    font-family: "Arial, sans-serif";
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin-right: 50px;
+}
+
+.welcome-container {
+    top: 2vh;
+    text-align: center;
+    background-color: #ffffff;
+    padding: 40px 50px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    overflow: hidden;
+}
+
+.welcome-container::before,
+.welcome-container::after {
+    content: "";
+    position: absolute;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.welcome-container::before {
+    background-image: url("asset/floral-design.png");
+}
+
+.welcome-container::after {
+    background-image: url("asset/rosemary.png");
+}
+
+.welcome-container::before {
+    top: 0px;
+    left: -1px;
+    width: 70px;
+    height: 70px;
+}
+
+.welcome-container::after {
+    bottom: 0px;
+    right: 0px;
+    width: 70px;
+    height: 70px;
+}
+
+.welcome-message {
+    font-size: 1.3em;
+    color: #333;
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+    width: 0.6rem;
+    border-radius: 0.5rem;
+    background-color: hsl(230, 16%, 85%);
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 0.5rem;
+    background-color: hsl(230, 16%, 65%);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: hsl(230, 16%, 55%);
+}
+
+.section__title {
+    font-family: "Vast Shadow", serif;
+    color: white;
+    font-weight: 400;
+    font-size: 3em;
+}
+
+.shop__container {
+    margin-left: 12vw;
+    margin-top: 6.7vw;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 6rem 1.5rem;
+    display: inline-flex;
+}
+
+.shop__card {
+    position: relative;
+    background: linear-gradient(to bottom, #ffffd0, #f3ccff, #d09cfa, #a555ec);
+    padding: 10.75rem 7rem 1.25rem 7rem;
+    border-radius: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.1);
+}
+
+.shop__img {
+    position: absolute;
+    top: -8rem;
+    left: 0;
+    right: 0;
+    width: 270px;
+    margin: 0 auto;
+    transition: transform 0.4s;
+}
+
+.shop__title {
+    font-family: "Mate SC", serif;
+    font-size: large;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: #4f1787;
+}
+
+.shop__price {
+    color: #5d0e41;
+    font-weight: 600;
+    font-size: medium;
+}
+
+.shop__button {
+    position: absolute;
+    right: 0.75rem;
+    bottom: 0.75rem;
+    outline: none;
+    border: none;
+    background-color: var(--primary-neon-orange);
+    padding: 6px;
+    border-radius: 50%;
+    font-size: 1.25rem;
+    display: grid;
+    cursor: pointer;
+}
+
+.shop__card:hover .shop__img {
+    transform: translateY(-0.5rem);
+}
+
+.control-group {
+    display: none;
+}

@@ -1,0 +1,33 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two equal columns */
+    height: 100vh; /* Full viewport height */
+}
+
+.grid-image {
+    justify-content: center;
+}
+
+.grid-image img {
+    width: 90%;
+    height: 90%;
+}
+
+.grid-text,
+.grid-image {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.grid-text {
+    margin-top: 10px;
+}
+
+.grid-text form {
+    margin-left: 50px;
+}
+
+.grid-text h1 {
+    text-align: center;
+}
