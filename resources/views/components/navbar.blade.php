@@ -114,12 +114,103 @@
             <!-- wrap @e -->
         </div>
         <!-- main @e -->
+
     </div>
     <!-- app-root @e -->
     <!-- select region modal -->
     <div class="modal fade" tabindex="-1" role="dialog" id="region">
 
     </div><!-- .modal -->
+    <footer class="footer">
+        <div class="footer__container container grid">
+            <div>
+                <a href="#" class="footer__logo">
+                    <i class="ri-restaurant-line"></i> TeaJam Cafe
+                </a>
+
+                <p class="footer__description">
+                    Rasakan kenikmatan <br>
+                    perpaduan rasa teh <br>
+                    yang menenangkan.
+                </p>
+            </div>
+
+            <div class="footer__data grid">
+                <div>
+                    <h3 class="footer__title">About</h3>
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#" class="footer__link">Awards</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">FAQs</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Privacy policy</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Terms of services</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="footer__title">Company</h3>
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#" class="footer__link">Blogs</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Community</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Our team</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Help center</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="footer__title">Contact</h3>
+                    <ul class="footer__links">
+                        <li>
+                            <address class="footer__info">
+                                Jl. Cauliflower No.123, Kota Greens, <br>
+                                Provinsi HertzVancouver, BC, Canada
+                            </address>
+                        </li>
+                        <li>
+                            <address class="footer__info">
+                                teajamcafe@gmail.com <br>
+                                (62)8111212113
+                            </address>
+                        </li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="footer__title">Social</h3>
+                    <div class="footer__social">
+                        <a href="https://www.facebook.com/" target="_blank" class="footer__social-link">
+                            <i class="ri-facebook-circle-line"></i>
+                        </a>
+                        <a href="https://www.instagram.com/" target="_blank" class="footer__social-link">
+                            <i class="ri-instagram-line"></i>
+                        </a>
+                        <a href="https://twitter.com/" target="_blank" class="footer__social-link">
+                            <i class="ri-twitter-x-line"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <span class="footer__copy">
+            Special Thanks To Our Loyal Customers
+        </span>
+    </footer>
     <!-- JavaScript -->
     <script src="{{ asset('assets/js/bundle.js') }}"></script>
     <script src="{{ asset('assets/js/scripts.js') }}"></script>

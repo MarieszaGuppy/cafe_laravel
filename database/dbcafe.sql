@@ -312,15 +312,14 @@ CREATE TABLE IF NOT EXISTS `transactions` (
 
 -- Dumping data for table dbcafe.transactions: ~2 rows (approximately)
 INSERT INTO `transactions` (`id`, `order_id`, `amount_paid`, `change`, `created_at`, `updated_at`, `deleted_at`) VALUES
-	(1, 1, 100000.00, 12000.00, '2024-11-02 21:53:29', '2024-11-02 21:53:29', '2024-11-03 11:18:02'),
-	(2, 1, 100000.00, 12000.00, '2024-11-02 21:55:36', '2024-11-02 21:55:36', NULL),
-	(3, 2, 60000.00, 5000.00, '2024-11-02 22:34:18', '2024-11-02 22:34:18', NULL),
-	(4, 4, 100000.00, 42000.00, '2024-11-02 22:48:58', '2024-11-02 22:48:58', NULL),
-	(5, 3, 100000.00, 16000.00, '2024-11-02 23:15:29', '2024-11-02 23:15:29', NULL),
-	(6, 5, 100000.00, 43000.00, '2024-11-03 00:51:47', '2024-11-03 00:51:47', NULL),
-	(7, 6, 100000.00, 17000.00, '2024-11-03 03:03:49', '2024-11-03 03:03:49', NULL),
-	(8, 7, 115000.00, 2000.00, '2024-11-03 04:54:45', '2024-11-03 04:54:45', NULL),
-	(9, 8, 100000.00, 48000.00, '2024-11-03 19:59:46', '2024-11-03 19:59:46', NULL);
+	(1, 1, 100000.00, 12000.00, '2024-11-02 21:55:36', '2024-11-02 21:55:36', NULL),
+	(2, 2, 60000.00, 5000.00, '2024-11-02 22:34:18', '2024-11-02 22:34:18', NULL),
+	(3, 4, 100000.00, 42000.00, '2024-11-02 22:48:58', '2024-11-02 22:48:58', NULL),
+	(4, 3, 100000.00, 16000.00, '2024-11-02 23:15:29', '2024-11-02 23:15:29', NULL),
+	(5, 5, 100000.00, 43000.00, '2024-11-03 00:51:47', '2024-11-03 00:51:47', NULL),
+	(6, 6, 100000.00, 17000.00, '2024-11-03 03:03:49', '2024-11-03 03:03:49', NULL),
+	(7, 7, 115000.00, 2000.00, '2024-11-03 04:54:45', '2024-11-03 04:54:45', NULL),
+	(8, 8, 100000.00, 48000.00, '2024-11-03 19:59:46', '2024-11-03 19:59:46', NULL);
 
 -- Dumping structure for table dbcafe.users
 CREATE TABLE IF NOT EXISTS `users` (
@@ -343,7 +342,7 @@ CREATE TABLE IF NOT EXISTS `users` (
 INSERT INTO `users` (`id`, `name`, `username`, `type`, `email`, `email_verified_at`, `password`, `remember_token`, `created_at`, `updated_at`, `deleted_at`) VALUES
 	(1, 'First Admin', 'fstadm595', 1, 'admin132@gmail.com', NULL, '$2y$12$eaMo32LBGLiOgF48cyjnQeIxNJNPOtVyZeI6pgXuUfJ420cYh4tVS', NULL, '2024-11-02 21:41:17', '2024-11-02 21:41:17', NULL),
 	(2, 'Goi Rong', 'grngx121', 0, 'groxx132@gmail.com', NULL, '$2y$12$.fUycjHep6zxhiKU3DWJReWxTwAW.ytmU530p0IE/FF3wVjnhv4ea', NULL, '2024-11-02 21:41:17', '2024-11-03 04:52:42', NULL),
-	(3, 'Chuang', 'chuangzzwas132@gmail.com', 0, 'chuangzzwas132@gmail.com', NULL, '$2y$12$vJ0zTsGU5leP1OINtuIgPO3sdRlteQxEszRU2ivlWLjEb6QdpNXkO', NULL, '2024-11-02 21:45:36', '2024-11-02 21:45:36', NULL);
+	(3, 'Chuang', 'chz*12r', 0, 'chuangzzwas132@gmail.com', NULL, '$2y$12$vJ0zTsGU5leP1OINtuIgPO3sdRlteQxEszRU2ivlWLjEb6QdpNXkO', NULL, '2024-11-02 21:45:36', '2024-11-02 21:45:36', NULL);
 
 /*!40103 SET TIME_ZONE=IFNULL(@OLD_TIME_ZONE, 'system') */;
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;
