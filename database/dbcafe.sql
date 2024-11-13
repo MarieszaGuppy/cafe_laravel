@@ -342,7 +342,7 @@ CREATE TABLE IF NOT EXISTS `users` (
 INSERT INTO `users` (`id`, `name`, `username`, `type`, `email`, `email_verified_at`, `password`, `remember_token`, `created_at`, `updated_at`, `deleted_at`) VALUES
 	(1, 'First Admin', 'fstadm595', 1, 'admin132@gmail.com', NULL, '$2y$12$eaMo32LBGLiOgF48cyjnQeIxNJNPOtVyZeI6pgXuUfJ420cYh4tVS', NULL, '2024-11-02 21:41:17', '2024-11-02 21:41:17', NULL),
 	(2, 'Goi Rong', 'grngx121', 0, 'groxx132@gmail.com', NULL, '$2y$12$.fUycjHep6zxhiKU3DWJReWxTwAW.ytmU530p0IE/FF3wVjnhv4ea', NULL, '2024-11-02 21:41:17', '2024-11-03 04:52:42', NULL),
-	(3, 'Chuang', 'chuangzzwas132@gmail.com', 0, 'chuangzzwas132@gmail.com', NULL, '$2y$12$vJ0zTsGU5leP1OINtuIgPO3sdRlteQxEszRU2ivlWLjEb6QdpNXkO', NULL, '2024-11-02 21:45:36', '2024-11-02 21:45:36', NULL);
+	(3, 'Chuang', 'chz*12r', 0, 'chuangzzwas132@gmail.com', NULL, '$2y$12$vJ0zTsGU5leP1OINtuIgPO3sdRlteQxEszRU2ivlWLjEb6QdpNXkO', NULL, '2024-11-02 21:45:36', '2024-11-02 21:45:36', NULL);
 
 /*!40103 SET TIME_ZONE=IFNULL(@OLD_TIME_ZONE, 'system') */;
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;

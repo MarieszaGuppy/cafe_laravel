@@ -7,8 +7,7 @@
     </style>
     <x-slot:popup></x-slot:popup>
     <x-slot:title></x-slot:title>
-    <x-slot:indexx><button onclick="location.href='{{ route('articles.index') }}'"
-            class=" btn btn-primary d-md-inline-flex"><i class="ri-arrow-left-line"></i></button></x-slot:indexx>
+    <x-slot:indexx></x-slot:indexx>
     <x-slot:desc></x-slot:desc>
     <x-slot:heading></x-slot:heading>
 
